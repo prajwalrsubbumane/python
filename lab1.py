@@ -24,3 +24,8 @@ array=[['a',7,202],
 
 print("Maximum profit seqence of job is ")
 printjobschedule(array, 3)
+
+
+
+#Maximum profit seqence of job is
+#['a', 'c', 'd']
