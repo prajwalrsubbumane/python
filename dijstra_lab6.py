@@ -41,9 +41,9 @@ def findoptimalroute(graph,start,destination):
         node=nextnode
 
 
-     route.append(start)
-     route.reverse()
-     return route        
+    route.append(start)
+    route.reverse()
+    return route        
 
 
 graph={
@@ -63,4 +63,3 @@ if optimalroute is None:
     print("No valid route exists from start to destination.")
 else:
     print("Optimal route:",'->'.join(optimalroute))    
-    
